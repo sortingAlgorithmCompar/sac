@@ -1,0 +1,39 @@
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: #181c1f;
+    text-align: center;
+    width: 100vw;
+    height: 4.5em;
+    border-top: 0.1em #00B2FF solid;
+}
+
+
+.social-media{
+    display:flex;
+    padding: 0.3em;
+    justify-content: space-evenly;
+}
+
+.fa-instagram, .fa-facebook-square, .fa-envelope, .fa-linkedin, .fa-github-square{
+    justify-content: center;
+    color: white;
+    transition: transform 300ms ease-in -300ms, color 500ms ease-in -500ms; 
+    margin: 0.2em 0 0 0;
+    &:hover {
+        color:#15FFFF;
+        transform: scale(1.15);
+    }
+}
+
+@media(max-width: 920px){ 
+    footer {
+        margin-top: 1.5em;
+    }
+}
+
+@media(max-width: 540px){ 
+    footer {
+        margin-top: 5.5em;
+    }
+}

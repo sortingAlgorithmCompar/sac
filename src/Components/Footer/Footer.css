@@ -1,0 +1,45 @@
+footer {
+  position: relative;
+  bottom: 0;
+  background-color: #181c1f;
+  text-align: center;
+  width: 100vw;
+  height: 4.5em;
+  border-top: 0.1em #00B2FF solid;
+}
+
+.social-media {
+  color: white; 
+  size: 200;
+}
+
+.fa-instagram, .fa-facebook-square, .fa-envelope, .fa-linkedin, .fa-github-square {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: white;
+  -webkit-transition: color 500ms ease-in -500ms, -webkit-transform 300ms ease-in -300ms;
+  transition: color 500ms ease-in -500ms, -webkit-transform 300ms ease-in -300ms;
+  transition: transform 300ms ease-in -300ms, color 500ms ease-in -500ms;
+  transition: transform 300ms ease-in -300ms, color 500ms ease-in -500ms, -webkit-transform 300ms ease-in -300ms;
+  margin: 0.2em 0 0 0;
+}
+
+.fa-instagram:hover, .fa-facebook-square:hover, .fa-envelope:hover, .fa-linkedin:hover, .fa-github-square:hover {
+  color: #15FFFF;
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+@media (max-width: 920px) {
+  footer {
+    margin-top: 1.5em;
+  }
+}
+
+@media (max-width: 540px) {
+  footer {
+    margin-top: 5.5em;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */
